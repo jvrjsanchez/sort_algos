@@ -11,3 +11,5 @@ var search = function(nums, target) {
     return -1
 }
 console.log(search(nums, target))
+
+//You must write an algorithm with O(log n) runtime complexity.
