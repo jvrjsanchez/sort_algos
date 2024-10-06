@@ -17,5 +17,5 @@ var longestStrChain = function(words) {
         return longestChain;
     }
 // Example usage:
-const words = ["abcd","dbqca"];
+const words = ["xbc","pcxbcf","xb","cxbc","pcxbc"];
 console.log(longestStrChain(words)); // Output: 5
