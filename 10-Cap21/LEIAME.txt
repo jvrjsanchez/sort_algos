@@ -1,0 +1,26 @@
+# Projeto 8 - Deep Learning com Rede Neural Convolucional em C++
+
+# Você deve ter o CMake instalado na sua máquina, conforme explicado no capítulo anterior.
+
+# Abra o terminal ou prompt de comando e navegue até a pasta onde estão os arquivos do projeto.
+
+# Crie e acesse a pasta build:
+
+mkdir build
+cd build
+
+# Execute o comando abaixo para validar a compilação:
+
+cmake ..
+
+# Execute a compilação:
+
+make
+
+# Acesse a pasta build e execute os comandos abaixo:
+
+./dsatesteunitario
+
+./dsatreino ../dados/train-images-idx3-ubyte ../dados/train-labels-idx1-ubyte ../dados/t10k-images-idx3-ubyte ../dados/t10k-labels-idx1-ubyte
+
+

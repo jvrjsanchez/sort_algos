@@ -1,0 +1,9 @@
+# Projeto 9 - Construindo Um LLM a Partir do Zero com Arquitetura Transformers em C++
+
+# Abra o terminal ou prompt de comando, navegue até a pasta onde estão os arquivos e execute:
+
+g++ -std=c++20 -o projeto9 projeto9.cpp ./src/*.cpp -I ./include
+
+# E então execute o programa C++ com o comando abaixo:
+
+./projeto9

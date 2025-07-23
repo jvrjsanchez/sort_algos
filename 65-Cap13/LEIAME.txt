@@ -1,0 +1,30 @@
+# Projeto 5 - Deep Learning Para Detecção de Fraudes em Transações Financeiras com Criptomoedas
+
+##### Use o procedimento abaixo para execução local #####
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsadlp5 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsadlp5 (ou: source activate dsadlp5)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute o jupyter:
+
+jupyter notebook
+
+# Acesse pelo navegador padrão.
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsadlp5 --all
+
+
+

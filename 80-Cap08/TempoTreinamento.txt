@@ -1,0 +1,17 @@
+Tempo de Treinamento do Modelo Mais Pesado (versão 3):
+
+
+Sem GPU:
+
+- Máquina com Processador Core i7 - 1 hora e 25 minutos
+
+- Máquina com Processador Apple M2 - 32 minutos
+
+- Máquina com Processador Apple M3 - 25 minutos
+
+
+Com GPU:
+
+- Google Colab GPU T4 (Gratuito) - 8 minutos
+
+- Google Colab GPU A100 (Colab Pro +) - 2 minutos
