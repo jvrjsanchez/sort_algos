@@ -1,0 +1,26 @@
+# Projeto 5 - Pipeline Automatizado de IA Para Detecção de Fraudes em Transações Financeiras Imobiliárias
+
+# Instale o Docker Desktop conforme instruções das aulas.
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsaengfinp5 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsaengfinp5 (ou: source activate dsaengfinp5)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Abra o terminal ou prompt de comando, navegue até a pasta onde estão os arquivos e execute o pipeline assim:
+
+python Projeto5-05-Executa-Pipeline.py
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsaengfinp5 --all
+

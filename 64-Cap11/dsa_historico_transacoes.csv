@@ -1,0 +1,31 @@
+id_historico,id_transacao,data_modificacao,descricao
+1,1,2023-01-07,Nova avaliação do imóvel realizada.
+2,19,2023-01-08,Cancelamento da transação.
+3,19,2023-01-09,Modificação do valor da transação.
+4,14,2023-01-10,Atualização de status para concluída.
+5,20,2023-01-11,Cancelamento da transação.
+6,1,2023-01-12,Modificação do valor da transação.
+7,10,2023-01-13,Registro da transação no sistema.
+8,3,2023-01-14,Atualização de status para concluída.
+9,15,2023-01-15,Nova avaliação do imóvel realizada.
+10,16,2023-01-16,Modificação do valor da transação.
+11,5,2023-01-17,Nova avaliação do imóvel realizada.
+12,3,2023-01-18,Nova avaliação do imóvel realizada.
+13,20,2023-01-19,Nova avaliação do imóvel realizada.
+14,13,2023-01-20,Registro da transação no sistema.
+15,6,2023-01-21,Registro da transação no sistema.
+16,13,2023-01-22,Cancelamento da transação.
+17,14,2023-01-23,Revisão da documentação necessária.
+18,15,2023-01-24,Nova avaliação do imóvel realizada.
+19,2,2023-01-25,Cancelamento da transação.
+20,12,2023-01-26,Nova avaliação do imóvel realizada.
+21,1,2023-01-27,Alteração de dados do cliente associado.
+22,16,2023-01-28,Alteração de dados do cliente associado.
+23,9,2023-01-29,Alteração de dados do cliente associado.
+24,20,2023-01-30,Modificação do valor da transação.
+25,11,2023-01-31,Registro da transação no sistema.
+26,8,2023-02-01,Nova avaliação do imóvel realizada.
+27,15,2023-02-02,Atualização de status para concluída.
+28,6,2023-02-03,Registro da transação no sistema.
+29,2,2023-02-04,Cancelamento da transação.
+30,18,2023-02-05,Modificação do valor da transação.

@@ -1,0 +1,41 @@
+id_imovel,endereco,cidade,estado,cep,descricao
+1,Av. do Contorno 150,Fortaleza,Paraná,51020-280,"Casa com 4 quartos, área de lazer completa, recém reformada."
+2,Boulevard Sunset 1300,Rio de Janeiro,Bahia,69005-070,Loft moderno com tecnologia de casa inteligente integrada.
+3,Via Norte 850,Goiânia,Pernambuco,80010-180,"Galpão industrial próximo a rodovias, ideal para logística."
+4,Estrada da Serra 444,Belo Horizonte,Pernambuco,90050-120,"Flat mobiliado, com serviços de hotel, perto do aeroporto."
+5,Via Norte 850,Fortaleza,Rio de Janeiro,20090-000,Loft moderno com tecnologia de casa inteligente integrada.
+6,Estrada Real 1120,Salvador,São Paulo,51020-280,"Flat mobiliado, com serviços de hotel, perto do aeroporto."
+7,Av. Brasil 2450,Belo Horizonte,Minas Gerais,51020-280,"Flat mobiliado, com serviços de hotel, perto do aeroporto."
+8,Rua Amarela 333,Goiânia,Minas Gerais,30120-020,"Loja de rua em área de grande movimento, ótimo ponto comercial."
+9,Praça da Árvore 580,Curitiba,Paraná,80010-180,"Galpão industrial próximo a rodovias, ideal para logística."
+10,Estrada da Serra 444,Manaus,Pernambuco,90050-120,"Galpão industrial próximo a rodovias, ideal para logística."
+11,Praça Central 480,Salvador,Amazonas,40026-010,"Sobrado em bairro histórico, completamente restaurado."
+12,Boulevard Green 1234,Salvador,Rio Grande do Sul,30120-020,Loft moderno com tecnologia de casa inteligente integrada.
+13,Alameda dos Sonhos 700,Manaus,Minas Gerais,51020-280,"Loja de rua em área de grande movimento, ótimo ponto comercial."
+14,Av. do Contorno 150,Fortaleza,Rio de Janeiro,60060-440,"Loja de rua em área de grande movimento, ótimo ponto comercial."
+15,Praça da Árvore 580,Recife,Minas Gerais,30120-020,"Flat mobiliado, com serviços de hotel, perto do aeroporto."
+16,Praça da Árvore 580,Rio de Janeiro,Ceará,90050-120,"Galpão industrial próximo a rodovias, ideal para logística."
+17,Boulevard Sunset 1300,Salvador,São Paulo,69005-070,Chácara ampla com vista para a montanha e rio nos fundos.
+18,Av. Brasil 2450,Goiânia,Amazonas,60060-440,Escritório comercial no coração do distrito financeiro.
+19,Boulevard Green 1234,Manaus,Paraná,69005-070,"Apartamento studio no centro da cidade, ideal para solteiros."
+20,Estrada Real 1120,Manaus,Minas Gerais,40026-010,"Galpão industrial próximo a rodovias, ideal para logística."
+21,Estrada Real 1120,Rio de Janeiro,Goiás,69005-070,"Galpão industrial próximo a rodovias, ideal para logística."
+22,Alameda dos Sonhos 700,Curitiba,Amazonas,20090-000,Cobertura duplex com vista panorâmica da cidade e jacuzzi.
+23,Via Láctea 900,Fortaleza,Goiás,40026-010,"Galpão industrial próximo a rodovias, ideal para logística."
+24,Via Norte 850,Curitiba,Rio de Janeiro,74003-010,"Sobrado em bairro histórico, completamente restaurado."
+25,Rua Azul 200,São Paulo,Paraná,69005-070,"Apartamento studio no centro da cidade, ideal para solteiros."
+26,Praça da Árvore 580,Rio de Janeiro,São Paulo,74003-010,Chácara ampla com vista para a montanha e rio nos fundos.
+27,Estrada Real 1120,São Paulo,São Paulo,30120-020,Chácara ampla com vista para a montanha e rio nos fundos.
+28,Av. do Contorno 150,Belo Horizonte,Rio Grande do Sul,74003-010,"Loja de rua em área de grande movimento, ótimo ponto comercial."
+29,Estrada da Serra 444,Porto Alegre,Paraná,74003-010,"Flat mobiliado, com serviços de hotel, perto do aeroporto."
+30,Boulevard Green 1234,Porto Alegre,Rio Grande do Sul,90050-120,"Apartamento studio no centro da cidade, ideal para solteiros."
+31,Alameda dos Sonhos 700,Recife,Paraná,51020-280,Escritório comercial no coração do distrito financeiro.
+32,Alameda dos Anjos 450,Salvador,Goiás,40026-010,Chácara ampla com vista para a montanha e rio nos fundos.
+33,Boulevard Sunset 1300,Manaus,Pernambuco,90050-120,Escritório comercial no coração do distrito financeiro.
+34,Boulevard Sunset 1300,Salvador,Bahia,74003-010,"Galpão industrial próximo a rodovias, ideal para logística."
+35,Praça da Árvore 580,Curitiba,Goiás,20090-000,Escritório comercial no coração do distrito financeiro.
+36,Alameda dos Sonhos 700,São Paulo,São Paulo,20090-000,Loft moderno com tecnologia de casa inteligente integrada.
+37,Av. do Contorno 150,Goiânia,Rio de Janeiro,74003-010,Escritório comercial no coração do distrito financeiro.
+38,Boulevard Green 1234,Salvador,Goiás,90050-120,Loft moderno com tecnologia de casa inteligente integrada.
+39,Rua Amarela 333,Rio de Janeiro,Rio de Janeiro,01000-000,"Casa com 4 quartos, área de lazer completa, recém reformada."
+40,Av. Brasil 2450,Recife,Rio de Janeiro,90050-120,Loft moderno com tecnologia de casa inteligente integrada.
