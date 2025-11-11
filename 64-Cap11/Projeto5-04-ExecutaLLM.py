@@ -21,7 +21,7 @@ def dsa_gera_insights():
     conn = psycopg2.connect(
         dbname="dsadb",
         user="dsa",
-        password="dsa1010",
+        password="",
         host="localhost",
         port="5553"
     )
