@@ -1,0 +1,25 @@
+# Estudo de Caso - LLM em Ação Para Geração de Texto - GPT em Linguagem Python
+# Para execução local
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsallmec1 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsallmec1 (ou: source activate dsallmec1)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute:
+
+jupyter notebook
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsallmec1 --all
+
