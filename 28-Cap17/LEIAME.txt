@@ -1,0 +1,27 @@
+# Projeto 10 - Robô Investidor com IA - Usando LLMs Para Investment Analytics
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsaengfinp10 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsaengfinp10 (ou: source activate dsaengfinp10)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute:
+
+python projeto10-gpt.py
+python projeto10-llama.py
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsaengfinp10 --all
+
+
+
