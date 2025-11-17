@@ -1,0 +1,24 @@
+# Projeto 1 - Converse com Seus PDFs - Criando Assistente Pessoal de IA com LLM e VectorDB
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsallmp1 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsallmp1 (ou: source activate dsallmp1)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute:
+
+jupyter notebook
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsallmp1 --all
+
