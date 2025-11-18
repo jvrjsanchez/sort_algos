@@ -1,0 +1,24 @@
+# Projeto 7 - Criando Contexto e Base de Conhecimento Para LLMs com Vector Database
+
+# Abra o terminal ou prompt de comando, navegue até a pasta com os arquivos e execute o comando abaixo para criar um ambiente virtual:
+
+conda create --name dsallmp7 python=3.12
+
+# Ative o ambiente:
+
+conda activate dsallmp7 (ou: source activate dsallmp7)
+
+# Instale o pip e as dependências:
+
+conda install pip
+pip install -r requirements.txt 
+
+# Execute:
+
+jupyter notebook
+
+# Use os comandos abaixo para desativar o ambiente virtual e remover o ambiente (opcional):
+
+conda deactivate
+conda remove --name dsallmp7 --all
+
