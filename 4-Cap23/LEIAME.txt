@@ -1,0 +1,69 @@
+# Projeto 10 - API RESTful Para Deploy do Modelo com C++ e Consumo da API com App Web em Python
+
+# Abra o terminal ou prompt de comando e navegue até a pasta onde estão os arquivos do projeto.
+
+# Execute o comando abaixo para criar a imagem Docker:
+
+docker build -t projeto10-img:v1 .
+
+# Execute o comando abaixo para criar o container Docker:
+
+docker run -dit --name dsa-p10 -p 5001:5001 -v ./app:/app projeto10-img:v1
+
+NOTA: No Windows você deve substituir ./app pelo caminho completo da pasta, por exemplo: C:\DSA\Cap23\app
+
+# Compile o programa com o comando abaixo dentro do container:
+
+g++ -o projeto10 projeto10.cpp -I /usr/include/eigen3
+
+# Execute o programa para treinar e salvar o modelo com o comando abaixo dentro do container:
+
+./projeto10
+
+# Veja o videobook do Capítulo 23 com os detalhes sobre o Crow.
+
+# Compile a api com o comando abaixo dentro do container:
+
+g++ -o api api.cpp -I /app/crow/include -I /usr/include/eigen3 -lpthread
+
+# Execute a api com o comando abaixo dentro do container:
+
+./api
+
+# Em um terminal ou prompt de comando na sua máquina local (host) execute o comando abaixo:
+
+curl -X POST http://localhost:5001/predict \
+     -H "Content-Type: application/json" \
+     -d '{"feature1": 1.5, "feature2": 2.0}'
+
+NOTA: Usuário Windows deve instalar o Curl: https://curl.se/windows/
+
+# Execute o comando abaixo na sua máquina local (host) para instalar as dependências Python:
+
+pip install -r requirements.txt
+
+# Execute o comando abaixo na sua máquina local (host) para testar o acesso à API através de cliente em código Python:
+
+python dsacliente.py
+
+# Execute o comando abaixo na sua máquina local (host) para iniciar a app web em Python:
+
+python dsawebapp.py
+
+# Abra o navegador e acesse a app web: http://127.0.0.1:5000
+
+# Teste a App:
+
+Atributo 1: O número de clientes atendidos em um dia.
+Atributo 2: A quantidade de unidades vendidas por cliente.
+Saída (previsão): A receita total gerada.
+
+# Obrigado DSA por este incrível curso! =)
+
+
+
+
+
+
+
+

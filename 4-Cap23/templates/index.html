@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Projeto 10</title>
+    <!-- Link do Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- Cabeçalho -->
+    <header class="bg-primary text-white text-center py-5 mb-4">
+        <div class="container">
+            <h1>API de Modelo Preditivo com Modelo C++</h1>
+            <p>Projeto 10 - API RESTful Para Deploy do Modelo com C++ e Consumo da API com App Web em Python</p>
+            <p>Insira os dados para obter uma previsão baseada no modelo de Machine Learning</p>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-sm p-4">
+                    <h2 class="text-center mb-4">Digite os Atributos de Entrada</h2>
+
+                    {% if error %}
+                        <div class="alert alert-danger text-center">
+                            {{ error }}
+                        </div>
+                    {% endif %}
+
+                    <!-- Formulário -->
+                    <form method="POST">
+                        <div class="mb-3">
+                            <label for="feature1" class="form-label">Atributo 1 (O número de clientes atendidos em um dia)</label>
+                            <input type="number" id="feature1" name="feature1" class="form-control" step="any" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="feature2" class="form-label">Atributo 2 (A quantidade de unidades vendidas por cliente)</label>
+                            <input type="number" id="feature2" name="feature2" class="form-control" step="any" required>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Obter Previsão</button>
+                        </div>
+                    </form>
+                </div>
+
+                {% if prediction %}
+                        <div class="alert alert-success text-center">
+                            <h4>Previsão de Receita Gerada: {{ prediction }}</h4>
+                        </div>
+                {% endif %}
+
+                <!-- Botão de suporte -->
+                <div class="text-center mt-4">
+                    <a href="mailto:suporte@datascienceacademy.com.br" class="btn btn-outline-secondary btn-sm">Obter Suporte</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
