@@ -104,13 +104,13 @@ def dsa_plot_volume(hist, ticker):
 # Agentes de IA 
 dsa_agente_web_search = Agent(name="DSA Agente Web Search",
                               role="Fazer busca na web",
-                              model=Groq(id="deepseek-r1-distill-llama-70b"),
+                              model=Groq(id="openai/gpt-oss-120b"),
                               tools=[DuckDuckGo()],
                               instructions=["Sempre inclua as fontes"],
                               show_tool_calls=True, markdown=True)
 
 dsa_agente_financeiro = Agent(name="DSA Agente Financeiro",
-                              model=Groq(id="deepseek-r1-distill-llama-70b"),
+                              model=Groq(id="openai/gpt-oss-120b"),
                               tools=[YFinanceTools(stock_price=True,
                                                    analyst_recommendations=True,
                                                    stock_fundamentals=True,
@@ -119,7 +119,7 @@ dsa_agente_financeiro = Agent(name="DSA Agente Financeiro",
                               show_tool_calls=True, markdown=True)
 
 multi_ai_agent = Agent(team=[dsa_agente_web_search, dsa_agente_financeiro],
-                       model=Groq(id="llama-3.3-70b-versatile"),
+                       model=Groq(id="openai/gpt-oss-20b"),
                        instructions=["Sempre inclua as fontes", "Use tabelas para mostrar os dados"],
                        show_tool_calls=True, markdown=True)
 
